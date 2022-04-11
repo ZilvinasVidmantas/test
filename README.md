@@ -17,11 +17,16 @@ https://git-scm.com/downloads
 - **git add** -> failų paruošimas patvirtinimui
   - **git add &lt;failo-pavadinimas&gt;**  -> prideda failą nurodytu pavadinimu
   - **git add .** -> Prideda visus pakitusius failus
+
 - **git diff** -> skirtumas tarp dviejų failų, ar dviejų to paties failo versijų
   - **git diff &lt;failo-pavadinimas&gt;** ->  failo nurodytu pavadinimu pakitimai nuo paskutinio commit'o
+
 - **git status** -> parodo pakitusių failų būseną
+
 - **git branch** -> komanda, kuri naudoja operacios su šakomis
   - **git branch -a** -> parodo visas parsiųstas šakas ir šiuo metu aktyvią šaką
+
 - **git commit** -> komanda skirta užtvirti projekto pakitimui
   - **git commit -m "Žinutė apibūdinanti pakitimą"**
+  
 - **git push** -> komanda skirta paviešinti commit'us į atitinkamą globalią šaką
