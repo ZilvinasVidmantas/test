@@ -31,7 +31,7 @@ https://git-scm.com/downloads
   
 - **git push** -> komanda skirta paviešinti commit'us į atitinkamą globalią šaką
 
-### Darbo atlikimo schema, pateika iliustracijoje "./darbo atlikimo GIT schema.png"
+### Darbo atlikimo schema, pateika iliustracijoje "./task workflow scheme/darbo atlikimo GIT schema.png" arba "./task workflow scheme/task-workflow-with-git.png"
 0. Prisiskirti sau task'ą užduočių planuoklėje, pakeisti jo būseną "In progress"
 1. git pull → tai daryti "main" šakoje. Šia komanda parsisiunčiate naujausią versiją
 2. git checkout -b "task-branch-name" → Persijungiate į savo šaką, kurioje atliksite darbus.
