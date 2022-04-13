@@ -1,0 +1,24 @@
+
+ 1.                 | 2.                    | 3.                      | 4. 
+ Tatjana Sibik      | Vytautas Palubinskas  | Dovilė Brazinskė        | Titas Klikūnas
+--------------------------------------------------------------------------------------------
+ Laura Vidmantaitė  | Mažvydas Vaicekauskas | Radoslav Konski         | Agnė Manaikaitė    
+ Danielius Zavackas | Artūras Gečas         | Juozas Snieška          | Amanda Pakalniškytė    
+ Gediminas Kubilius | Ivona Skliutaitė      | Kristina Žalandauskaitė | Andrius Mikalauskas    
+ Žilvinas Dvareckas | Karolis Jonaitis      | Karolis Makselis        | Gytis Paulauskas    
+                               
+ 1. Home Page Team 
+  * 
+
+ 2. Gallery Page Team 
+  * 
+
+ 3. Contacts Page Team 
+  * 
+
+ 4. SCSS Team
+  * 
+
+10min pertrauka
+
+iki 20:40 darbų planavimas "Task Planner" programoje
