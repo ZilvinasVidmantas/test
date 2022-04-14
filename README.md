@@ -30,3 +30,26 @@ https://git-scm.com/downloads
   - **git commit -m "Žinutė apibūdinanti pakitimą"**
   
 - **git push** -> komanda skirta paviešinti commit'us į atitinkamą globalią šaką
+
+### Darbo atlikimo schema, pateika iliustracijoje "./darbo atlikimo GIT schema.png"
+0. Prisiskirti sau task'ą užduočių planuoklėje, pakeisti jo būseną "In progress"
+1. git pull → tai daryti "main" šakoje. Šia komanda parsisiunčiate naujausią versiją
+2. git checkout -b "task-branch-name" → Persijungiate į savo šaką, kurioje atliksite darbus.
+  * ... atliekate darbą, rašote kodą ...
+3. git add . → užfiksuojate pakitimus
+4. git commit -m "darbą apibūdinantis paaiškinimas" → užtvirtinate pakitimus
+5. git checkout main →  grįžtate į pagrindinę šaką, į tą nuo kurios atsiskyrėte.
+6. git pull → pasisiunčiate potencialiai pakitusią "main" versiją
+7. git checkout "task-branch-name" → grįžtate į savo šaką
+8. git merge main → prie savo šakos "task-branch-name" prijungiate naują "main" versiją
+  * ... išsprendžiate konfliktus, jei jų buvo ir pa'commit'ate
+9. git push --set-upstream origin "task-branch-name" → jūsų šaka su pakitimais paviešinama globalioje repozitorijoje
+10. https://github.com susirasti repozitoriją ir joje padaryti pull Request
+  * Pull request pavadinime turi būti task'o Pavadinimas
+  * turi būti jungiama jūsų šaka į pagrindinę
+11. Užduočių tvarkyklėje perkelti task'ą į Pull Request skiltį ir į komentarus įdėti nuorodą į Pull Request
+12. Laukti 2 patvirtinimų, ir sulaukus sujungti šakas
+       base:main ← "task-branch-name"
+
+
+![](./darbo%20atlikimo%20GIT%20schema.png)
