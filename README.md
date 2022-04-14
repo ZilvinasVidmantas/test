@@ -52,4 +52,4 @@ https://git-scm.com/downloads
 12. Laukti 2 patvirtinimų, ir sulaukus sujungti šakas
        base:main ← "task-branch-name"
 
-![](./task%workflow%scheme/git-branching-workflow2.png)
+![](./task%20workflow%20scheme/git-branching-workflow2.png)
