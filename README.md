@@ -50,3 +50,6 @@ https://git-scm.com/downloads
 11. Užduočių tvarkyklėje perkelti task'ą į Pull Request skiltį ir į komentarus įdėti nuorodą į Pull Request
 12. Laukti 2 patvirtinimų, ir sulaukus sujungti šakas
        base:main ← "task-branch-name"
+
+
+![](./darbo%20atlikimo%20GIT%20schema.png)
